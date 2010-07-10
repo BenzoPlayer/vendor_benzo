@@ -36,6 +36,14 @@ PRODUCT_COPY_FILES += \
     vendor/benzo/prebuilt/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
     vendor/benzo/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
 
+# init.d script support
+PRODUCT_COPY_FILES += \
+    vendor/benzo/prebuilt/common/bin/sysinit:system/bin/sysinit
+
+# init file
+PRODUCT_COPY_FILES += \
+    vendor/benzo/prebuilt/common/etc/init.benzo.rc:root/init.benzo.rc
+
 # Busybox
 PRODUCT_PACKAGES += \
     Busybox
