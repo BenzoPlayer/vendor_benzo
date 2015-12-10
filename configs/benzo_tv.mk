@@ -5,3 +5,9 @@ include vendor/benzo/configs/versions.mk
 # Google property overides
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.wifi-watchlist=GoogleGuest
+
+# Include our custom apps
+PRODUCT_PACKAGES += \
+    AppDrawer \
+    BenzoCustomizer
+
