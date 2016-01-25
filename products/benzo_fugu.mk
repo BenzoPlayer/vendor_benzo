@@ -13,6 +13,7 @@
 # limitations under the License.
 #
 include vendor/benzo/configs/benzo_tv.mk
+include vendor/benzo/configs/optimizations.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/asus/fugu/aosp_fugu.mk)
@@ -23,7 +24,6 @@ PRODUCT_BRAND := google
 PRODUCT_DEVICE := fugu
 PRODUCT_MODEL := Nexus Player
 PRODUCT_MANUFACTURER := Asus
-export TARGET_DEVICE := fugu
 
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \

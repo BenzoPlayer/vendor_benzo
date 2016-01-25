@@ -15,3 +15,6 @@ OTA_DATE := $(shell date -u +%Y%m%d)
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.benzo.version=$(ROM_VERSION) \
   ro.modversion=$(ROM_VERSION)
+
+TARGET_DEVICE := fugu
+export TARGET_DEVICE := fugu
