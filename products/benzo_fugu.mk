@@ -28,5 +28,5 @@ export TARGET_DEVICE := fugu
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=fugu \
-    BUILD_FINGERPRINT="google/fugu/fugu:6.0.1/MMB29T/2492429:user/release-keys" \
-    PRIVATE_BUILD_DESC="fugu-user 6.0.1 MMB29T 2492429 release-keys"
+    BUILD_FINGERPRINT="google/fugu/fugu:6.0.1/MOB30G/2723637:user/release-keys" \
+    PRIVATE_BUILD_DESC="fugu-user 6.0.1 MOB30G 2723637 release-keys"
